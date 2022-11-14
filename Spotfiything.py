@@ -3,8 +3,8 @@
 ids=[]
 import spotipy
 from spotipy import SpotifyOAuth
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="a2165466c9f144d29c113c15eb89f7f7",
-    client_secret="287e7dc735e44bb4b74ade6afc4e4fe2",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="***USE YOUR CLIENT ID HERE***",
+    client_secret="***USE YOUR CLIENT SECRET HERE",
     redirect_uri="http://localhost:8080" ,
     scope = "playlist-read-private playlist-modify-private playlist-modify-public",
     show_dialog=True))
